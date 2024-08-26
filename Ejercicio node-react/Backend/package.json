@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for ProyectoMovies",
+  "main": "server/App.js",
+  "scripts": {
+    "start": "node server/App.js",
+    "dev": "nodemon server/App.js"
+  },
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
